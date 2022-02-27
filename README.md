@@ -1,7 +1,7 @@
 joi-traverse
 ============
 
-[joi](https://github.com/sideway/joi) has [no internal api](), but it's utility for generative tasks is undeniable. I built some joi utilities but using an undocumented interfaces means, evetually, something will break. binding a specific joi version to a traversal API allows me to prevent this by upgrading the traversal code in lock step with the joi version.
+[joi](https://github.com/sideway/joi) has [no internal api](https://github.com/sideway/joi/issues/2745), but it's utility for generative tasks is undeniable. I built some joi utilities... but using an undocumented interfaces means, eventually, something will break. binding a specific joi version to a traversal API allows me to prevent this by upgrading the traversal code in lock step with the joi version.
 
 Usage
 -----
